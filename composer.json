@@ -11,13 +11,19 @@
       "email": "onexhovia@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.3.3",
     "composer/installers": "~1.0",
-    "citfact/doctrine-connect": "*",
-    "citfact/doctrine-iblock": "*"
+    "doctrine/orm": "~2.2,>=2.2.3",
+    "citfact/doctrine-connect": "dev-master",
+    "citfact/doctrine-iblock": "dev-master",
+    "citfact/doctrine-userfield": "dev-master"
   },
   "extra": {
-    "installer-name": "citfact.doctrine"
+    "installer-name": "citfact.doctrine",
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
   }
 }
